@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMain">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="603.0" style="-fx-background-color: #FFFFF0;">
+         <children>
+            <Button fx:id="btnSalvar" layoutX="472.0" layoutY="348.0" mnemonicParsing="false" onMouseClicked="#saveClient" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #F08080;" text="Salvar" textFill="#a42330">
+               <font>
+                  <Font name="Romantic" size="14.0" />
+               </font></Button>
+            <Button fx:id= "btnLimpar" layoutX="351.0" layoutY="348.0" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #F08080;" text="Limpar" textFill="#a42330">
+               <font>
+                  <Font name="Romantic" size="14.0" />
+               </font></Button>
+            <Label layoutX="38.0" layoutY="187.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Nome:" textFill="LIGHTCORAL">
+               <font>
+                  <Font name="Romantic" size="15.0" />
+               </font></Label>
+            <Label layoutX="35.0" layoutY="236.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Endereço:" textFill="LIGHTCORAL">
+               <font>
+                  <Font name="Romantic" size="15.0" />
+               </font></Label>
+            <Label layoutX="38.0" layoutY="286.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="CPF:" textFill="LIGHTCORAL">
+               <font>
+                  <Font name="Romantic" size="15.0" />
+               </font></Label>
+            <Label layoutX="38.0" layoutY="101.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Dados do Cliente:" textFill="LIGHTCORAL">
+               <font>
+                  <Font name="Romantic" size="19.0" />
+               </font></Label>
+            <Label layoutX="137.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #FFE4C4;" text="Cadastro de Cliente" textFill="#a42330">
+               <font>
+                  <Font name="Romantic" size="38.0" />
+               </font></Label>
+            <TextField fx:id="txtNome" layoutX="90.0" layoutY="186.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="464.0" />
+            <TextField fx:id="txtEndereco" layoutX="112.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="441.0" />
+            <TextField fx:id="txtCPF" layoutX="82.0" layoutY="285.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="281.0" />
+            <Button fx:id="btnConsulta" layoutX="233.0" layoutY="348.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #F08080;" text="Consultar" textFill="#a42330">
+               <font> <Font name="Romantic" size="14.0" /></font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</HBox>
