@@ -35,16 +35,6 @@ public class ControllerMain {
             stmt.setString(2, txtEndereco.getText());
             stmt.setString(3, txtCPF.getText());
 
-            if (!txtNome.getText().equals(" ")){
-                JOptionPane.showMessageDialog( null, "Favor, preencher o Nome."); return;
-            }
-            if (!txtEndereco.getText().equals(" ")){
-                JOptionPane.showMessageDialog( null, "Favor, preencher o Endereço."); return;
-            }
-            if (!txtCPF.getText().equals(" ")){
-                JOptionPane.showMessageDialog( null, "Favor, preencher o CPF."); return;
-            }
-
             stmt.executeUpdate();
 
             stmt.close();
